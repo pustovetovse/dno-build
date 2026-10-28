@@ -145,7 +145,7 @@
         ${j(S.tutorial,`tutorial`,{pulse:!0})}
         <button class="link" data-a="skipTutorial">${S.tutorialSkip}</button>
       </section>`:``;I.innerHTML=`
-    <div class="hero-wrap"><img class="hero" src="./cover-${ln}.jpg" alt="${S.title}" width="640" height="360">
+    <div class="hero-wrap"><img class="hero" src="./cover-tall-${ln}.jpg" alt="${S.title}" width="640" height="640">
       <button class="profile" data-a="profile" aria-label="${S.avatarTitle}. ${S.avatarChange}" title="${S.avatarTitle}">${P(oe(),!1,`ava`,se())}<small>${ue()?tr(ue(),ce(),le()):S.avatarShort}</small></button>
       <button class="profile hero-league" data-a="league" aria-label="${S.leagueScreen}">${w(`flag`,`ava`)}<small>${S.leagueMenu}</small></button></div>
     ${i}
